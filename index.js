@@ -14,7 +14,7 @@ async function run() {
       return scoreElement ? scoreElement.innerHTML : 'No score found';
     });
 
-    console.log('Score:', score);
+
 
  
     let existingHtml;
