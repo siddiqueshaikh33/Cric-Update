@@ -1,0 +1,39 @@
+.card {
+    background-color: #e4d7d7;
+    width: 400px;
+    height: 400px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px #000000;  /* Corrected the box-shadow syntax */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(62, 80, 105);
+}
+
+.card h1 {
+    text-align: center;
+}
+
+.Team1,
+.Team2 {
+    display: flex;
+    align-items: center;
+    margin: 10px; /* Added margin to separate the teams if needed */
+}
+
+.Teamname {
+    flex: 2;  /* Takes more space */
+    margin-right: 10px;
+    display: inline-flex;
+    margin-left: 10px;
+}
+
+.TeamScore {
+    flex: 1;  /* Takes less space */
+    display: inline-flex;
+    margin-left: 10px;
+}
